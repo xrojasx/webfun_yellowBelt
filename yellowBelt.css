@@ -1,0 +1,153 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+#body{
+    background-color: black;
+    height: 2000px;
+    width: 1800px;
+}
+#header{
+    background-color: black;
+    height: auto;
+    width: 1200px;
+}
+#headtopleft{
+    margin-left: 30px;
+    padding-top: 25px;
+}
+#headtopright h4{
+    position: relative;
+    color:white;
+    float: right;
+    margin-right: 50px;
+    bottom: 50px;
+}
+#headbott{
+    position: relative;
+    text-align: center;
+    display: block;
+    background-color:#242323;
+    height: 50px;
+    top: 25px;
+}
+#headbott li {
+    display: inline;
+}
+#headbott li a {
+    position: relative;
+    color: white;
+    font-family: arial;
+    text-decoration: none;
+    padding: 14px 25px;
+    font-size: 100%;
+    right: 120px;
+    top: 15px;
+}
+#contimg img{
+    width: 1200px;
+    height: 450px;
+}
+#content{
+    width: 1200px;
+    background-color: #1a1a1a;
+}
+#content p{
+    font-size: 80%;
+}
+#contcen img{
+    position: relative;
+    bottom: 27px;
+    left: 90px;
+}
+h3{
+    color: orange;
+}
+p{
+    color: white;
+}
+#cloud, #cloudt, #clock, #clockt, #map, #mapt, #arrow, #arrowt{
+    display: inline-block;
+    width: 146px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative; 
+    right: 45px;
+}
+#contleft, #contright{
+    display: inline-block;
+}
+#contleft, #contrigth h2 p{
+    color: white;
+}
+#contleft{
+    width: 600px;
+    margin-left: 100px;
+}
+button{
+    position: relative;
+    background-color: orange;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 110%;
+    left: 320px;
+    bottom: 25px;
+    border-style: none;
+}
+#contbott{
+    padding-top: 40px;
+    background-color: black;
+    height: 140px;
+}
+#footer{
+    background-color: #1a1a1a;
+    height: 415px;
+    width: 1194px;
+    padding-top: 30px;
+    border-right: solid black;
+    border-left: solid black; 
+}
+#ftleft, #ftright{
+    display: inline-block;
+}
+#ftleft{
+    color: white;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#ftright{
+    position: relative;
+    left: 860px;
+}
+#ftright a{
+    color: orange;
+}
+#fc1img img, #fc2img img, #fc3img img, #fc4img img{
+    width: 254px;
+    height: 161px;
+    border: solid gray;
+}
+#fc1img, #fc2img, #fc3img, #fc4img{
+    display: inline-block;
+    width: 250px;
+    height: 170;
+    vertical-align: top;
+    padding: 15px;
+    margin-top: 10px;
+}
+#footcont{
+    margin-left: 30px;
+}
+#footbott{
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+#footbott a{
+    color: white;
+    text-decoration: none;
+    font-size: 80%;
+}
